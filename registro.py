@@ -28,7 +28,7 @@ with st.form(key="include_cliente"):
 if info:
     st.write()
 else:
-    st.warning("Você precisa concordar com os termos para continuar")
+    st.warning("Você precisa concordar com os termos para continuar", icon="⚠️")
     st.stop()
 
 if input_button_submit:
