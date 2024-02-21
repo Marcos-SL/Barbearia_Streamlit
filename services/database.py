@@ -1,8 +1,4 @@
 import pyodbc
 
-server = 'servidor'
-database = 'nome do database'
-username = 'login'
-password = 'senha'
-cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=exemplo;DATABASE=exemplo;UID=UserExemplo;PWD=SenhaExemplo')
 cursor = cnxn.cursor()
